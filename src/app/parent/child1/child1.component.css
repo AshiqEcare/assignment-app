@@ -1,0 +1,26 @@
+.gridContainer {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 10% 20%;
+}
+
+.numberList {
+  padding: 24px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  /* background-color: #2B8EAD; */
+  /* background-color: #BFBFBF; */
+}
+
+/* #000000 black
+#2B8EAD blue
+#333333 grey
+#6F98A8 greyish blue
+#FFFFFF white
+#BFBFBF light grey
+#EFEFEF next white
+#2F454E next blue
+#72C3DC light blue */

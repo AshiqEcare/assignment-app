@@ -1,0 +1,18 @@
+<div>
+  <button [ngClass]="shuffleCounter == 2 ? 'btn disabled' : 'btn'" [disabled]="shuffleCounter == 2"
+    (click)="shuffle()">SHUFFLE</button>
+  <button [ngClass]="sortCounter == 2 ? 'btn disabled' : 'btn'" [disabled]="sortCounter == 2"
+    (click)="sort()">SORT</button>
+</div>
+
+
+<div class="container">
+  <div class="appSelector">
+    <app-child1 [shuffle]="shuffleEvent.asObservable()"></app-child1>
+  </div>
+
+  <div class="appSelector">
+    <app-child2 [shuffle]="shuffleEvent.asObservable()"></app-child2>
+  </div>
+
+</div>

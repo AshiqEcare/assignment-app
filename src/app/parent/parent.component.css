@@ -1,0 +1,23 @@
+.btn {
+  margin: 5px;
+    padding: 10px;
+    background-color: #2B8EAD;
+    color: #ffffff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.appSelector {
+  width: 50%;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
